@@ -3,48 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tabela</title>
+    <title>Desafio13.2</title>
     <style>
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-        }
         table {
-            border-collapse: collapse;
-            width: 250px;
+            padding: 2px;
+            width: 200px;
             text-align: center;
         }
-
         td {
             border: 1px solid black;
-            padding: 10px;
         }
-
     </style>
 </head>
 <body>
-    <h1>Mescaglem de celulas</h1>
     <table>
         <tr>
-            <td>A</td>
-            <td colspan="2">B</td>
-            
+            <td colspan="4">A</td>
+            <td rowspan="4">B</td>
         </tr>
         <tr>
-            <td rowspan="3">D</td>
+            <td rowspan="4">C</td>
+            <td>D</td>
             <td>E</td>
-            <td rowspan="2">F</td>
+            <td>F</td>
         </tr>
         <tr>
-            
+            <td>G</td>
             <td>H</td>
-            
+            <td>I</td>
         </tr>
         <tr>
-            
-        
-            <td colspan="2">L</td>
+            <td>J</td>
+            <td>K</td>
+            <td>L</td>
         </tr>
+        <tr>
 
+            <td colspan="4">M</td>
+        </tr>
     </table>
 </body>
 </html>
